@@ -64,7 +64,20 @@ function Code() {
       </div>
       <div
         className="topnav"
-        style={{ border: "1.5px solid #EEEEEE", borderTop: "none", position:"fixed"}}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          borderBottom: "1.5px solid #EEEEEE",
+          backgroundColor: "#fff",
+          zIndex: 10,
+          padding: "5vh 3vh",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          
+        }}
       >
         <a class="active" href="#logo">
           <img src="src/assets/windsteruilogo.svg" width="33" height="33" />
@@ -105,7 +118,7 @@ function Code() {
             }}
           />
         </div>
-        <a style={{ marginLeft: "78vh", color: "#808080" }}>
+        <a style={{ marginLeft: "70vh", color: "#808080" }}>
           Open source <i class="fa-solid fa-heart" style={{ color: "red" }}></i>
         </a>
         <button
@@ -140,6 +153,7 @@ function Code() {
           marginLeft: "16.6vw",
           width: "calc(100% - 16.6vw)",
           padding: "2vh",
+          marginTop:"7vh"
         }}
       >
         <div className="main-one" style={{ display: "flex", gap: "2vh" }}>
@@ -318,7 +332,7 @@ function Code() {
             <h2>
               <strong>2,340</strong>
             </h2>
-            <p>New products this week</p>
+            <p style={{color:"grey"}}>New products this week</p>
             <p
               style={{
                 position: "absolute",
@@ -344,7 +358,7 @@ function Code() {
             <h2>
               <strong>5,355</strong>
             </h2>
-            <p>Visitors this week</p>
+            <p style={{color:"grey"}}>Visitors this week</p>
             <p style={{
                 position: "absolute",
                 right: "20px",
@@ -368,7 +382,7 @@ function Code() {
             <h2>
               <strong>385</strong>
             </h2>
-            <p>User signups this week</p>
+            <p style={{color:"grey"}}>User signups this week</p>
             <p style={{
                 position: "absolute",
                 right: "20px",
@@ -379,6 +393,7 @@ function Code() {
               -2.7%<i class="fa-solid fa-arrow-down"></i>
             </p>
           </div>
+
         </div>
       </div>
     </>
