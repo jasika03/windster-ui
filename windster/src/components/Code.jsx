@@ -71,20 +71,23 @@ function Code() {
           width: "100%",
           borderBottom: "1.5px solid #EEEEEE",
           backgroundColor: "#fff",
-          zIndex: 10,
+          zIndex: 1,
           padding: "5vh 3vh",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          
         }}
       >
-        <a class="active" href="#logo">
-          <img src="src/assets/windsteruilogo.svg" width="33" height="33" />
-        </a>
-        <a href="#">
-          <strong>Windster</strong>
-        </a>
+        <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
+          <a class="active" href="#logo">
+            <img src="src/assets/windsteruilogo.svg" width="33" height="33" />
+          </a>
+          <a href="#">
+            <h4>
+              <strong>Windster</strong>
+            </h4>
+          </a>
+        </div>
         <div
           className="search"
           style={{
@@ -153,7 +156,7 @@ function Code() {
           marginLeft: "16.6vw",
           width: "calc(100% - 16.6vw)",
           padding: "2vh",
-          marginTop:"7vh"
+          marginTop: "7vh",
         }}
       >
         <div className="main-one" style={{ display: "flex", gap: "2vh" }}>
@@ -163,8 +166,9 @@ function Code() {
               background: "white",
               borderRadius: "15px",
               padding: "50px",
-              width: "100vh",
+              width: "150vh",
               marginTop: "3vh",
+              boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
             }}
           >
             <div className="content" style={{ position: "relative" }}>
@@ -192,9 +196,10 @@ function Code() {
             style={{
               background: "white",
               borderRadius: "15px",
-              padding: "50px",
-              width: "70vh",
+              padding: "30px",
+              width: "60vh",
               marginTop: "3vh",
+              boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
               position: "relative",
             }}
           >
@@ -324,6 +329,7 @@ function Code() {
             style={{
               background: "white",
               borderRadius: "10px",
+              boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
               padding: "20px",
               textAlign: "left",
               position: "relative",
@@ -332,12 +338,12 @@ function Code() {
             <h2>
               <strong>2,340</strong>
             </h2>
-            <p style={{color:"grey"}}>New products this week</p>
+            <p style={{ color: "grey" }}>New products this week</p>
             <p
               style={{
                 position: "absolute",
                 right: "20px",
-                top:"45px",
+                top: "45px",
                 color: "green",
                 fontWeight: "bold",
               }}
@@ -350,6 +356,7 @@ function Code() {
             style={{
               background: "white",
               borderRadius: "10px",
+              boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
               padding: "20px",
               textAlign: "left",
               position: "relative",
@@ -358,14 +365,16 @@ function Code() {
             <h2>
               <strong>5,355</strong>
             </h2>
-            <p style={{color:"grey"}}>Visitors this week</p>
-            <p style={{
+            <p style={{ color: "grey" }}>Visitors this week</p>
+            <p
+              style={{
                 position: "absolute",
                 right: "20px",
-                top:"45px",
+                top: "45px",
                 color: "green",
                 fontWeight: "bold",
-              }}>
+              }}
+            >
               32.9%<i class="fa-solid fa-arrow-up"></i>
             </p>
           </div>
@@ -374,6 +383,7 @@ function Code() {
             style={{
               background: "white",
               borderRadius: "10px",
+              boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
               padding: "20px",
               textAlign: "left",
               position: "relative",
@@ -382,18 +392,50 @@ function Code() {
             <h2>
               <strong>385</strong>
             </h2>
-            <p style={{color:"grey"}}>User signups this week</p>
-            <p style={{
+            <p style={{ color: "grey" }}>User signups this week</p>
+            <p
+              style={{
                 position: "absolute",
                 right: "20px",
-                top:"45px",
+                top: "45px",
                 color: "red",
                 fontWeight: "bold",
-              }}>
+              }}
+            >
               -2.7%<i class="fa-solid fa-arrow-down"></i>
             </p>
           </div>
+          <div className="main-two" style={{ display: "flex", gap: "2vh" }}>
+            <div
+              className="Customers"
+              style={{
+                background: "white",
+                borderRadius: "15px",
+                padding: "50px",
+                // width: "300vh",
+                boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
+              }}
+            >
+              <div style={{display: "flex", gap: "20vh"}}>
+                <h3>Latest Customers</h3>
+                <button>View all</button>
+              </div>
+              <div>
 
+              </div>
+            </div>
+            <div
+              className="Overview"
+              style={{
+                background: "white",
+                borderRadius: "15px",
+                padding: "30px",
+                // width: "300vh",
+                boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
+
+              }}
+            ></div>
+          </div>
         </div>
       </div>
     </>
