@@ -6,11 +6,13 @@
     height: 100%;
     width: 35vh;
     position: fixed;
-    /* background-color: #f6f5f5; */
-    /* overflow-x: hidden; */
-    top: 7.3vh;
+    background-color: #fff;
+    overflow-x: hidden;
+    top: 0;
+    /* top: 10.1vh; */
     left: 0;
-    padding-top: 16px;
+    padding-top: 10.1vh;
+    /* z-index: 10; */
   }
   
   .sidebar a {

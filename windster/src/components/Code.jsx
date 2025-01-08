@@ -121,7 +121,7 @@ function Code() {
             }}
           />
         </div>
-        <a style={{ marginLeft: "70vh", color: "#808080" }}>
+        <a style={{ marginLeft: "65vh", color: "#808080" }}>
           Open source <i class="fa-solid fa-heart" style={{ color: "red" }}></i>
         </a>
         <button
@@ -151,10 +151,10 @@ function Code() {
       <div
         className="main"
         style={{
-          backgroundColor: "#f6f9fc",
-          height: "calc(1000vh - 7.3vh)",
+          // backgroundColor: "#f6f9fc",
+          // height: "calc(1000vh - 7.3vh)",
           marginLeft: "16.6vw",
-          width: "calc(100% - 16.6vw)",
+          // width: "calc(100% - 16.6vw)",
           padding: "2vh",
           marginTop: "7vh",
         }}
@@ -172,9 +172,9 @@ function Code() {
             }}
           >
             <div className="content" style={{ position: "relative" }}>
-              <h2>
+              <div className="text-4xl">
                 <strong>$45,385</strong>
-              </h2>
+              </div>
               <p style={{ color: "gray" }}>Sales this week</p>
               <p
                 style={{
@@ -203,9 +203,9 @@ function Code() {
               position: "relative",
             }}
           >
-            <h4>
+           <div className="text-xl">
               <strong>Latest Transactions</strong>
-            </h4>
+            </div>
             <p style={{ color: "gray" }}>
               This is a list of latest transactions
             </p>
@@ -335,9 +335,9 @@ function Code() {
               position: "relative",
             }}
           >
-            <h2>
+            <div className="text-3xl">
               <strong>2,340</strong>
-            </h2>
+            </div>
             <p style={{ color: "grey" }}>New products this week</p>
             <p
               style={{
@@ -362,9 +362,9 @@ function Code() {
               position: "relative",
             }}
           >
-            <h2>
+            <div className="text-3xl">
               <strong>5,355</strong>
-            </h2>
+            </div>
             <p style={{ color: "grey" }}>Visitors this week</p>
             <p
               style={{
@@ -389,9 +389,9 @@ function Code() {
               position: "relative",
             }}
           >
-            <h2>
+            <div className="text-3xl">
               <strong>385</strong>
-            </h2>
+            </div>
             <p style={{ color: "grey" }}>User signups this week</p>
             <p
               style={{
@@ -405,37 +405,7 @@ function Code() {
               -2.7%<i class="fa-solid fa-arrow-down"></i>
             </p>
           </div>
-          <div className="main-two" style={{ display: "flex", gap: "2vh" }}>
-            <div
-              className="Customers"
-              style={{
-                background: "white",
-                borderRadius: "15px",
-                padding: "50px",
-                // width: "300vh",
-                boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
-              }}
-            >
-              <div style={{display: "flex", gap: "20vh"}}>
-                <h3>Latest Customers</h3>
-                <button>View all</button>
-              </div>
-              <div>
-
-              </div>
-            </div>
-            <div
-              className="Overview"
-              style={{
-                background: "white",
-                borderRadius: "15px",
-                padding: "30px",
-                // width: "300vh",
-                boxShadow: "0 0 2.5px 0px rgba(169, 167, 167, 0.5)",
-
-              }}
-            ></div>
-          </div>
+          
         </div>
       </div>
     </>
