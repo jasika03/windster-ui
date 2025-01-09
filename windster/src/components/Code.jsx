@@ -1,4 +1,5 @@
 import React from "react";
+// import Chart from "./chart";
 
 function Code() {
   return (
@@ -17,7 +18,8 @@ function Code() {
               padding: "0vh 1vh 0vh 1vh",
               border: "none",
               borderRadius: "10px",
-              marginLeft: "10vh",
+              marginLeft: "8vh",
+              backgroundColor: "lightgrey"
             }}
           >
             Pro
@@ -30,7 +32,8 @@ function Code() {
               padding: "0vh 1vh 0vh 1vh",
               border: "none",
               borderRadius: "10px",
-              marginLeft: "12.2vh",
+              marginLeft: "10.2vh",
+              backgroundColor: "lightgrey"
             }}
           >
             Pro
@@ -121,24 +124,27 @@ function Code() {
             }}
           />
         </div>
-        <a style={{ marginLeft: "65vh", color: "#808080" }}>
+        <a style={{ marginLeft: "75vh", color: "#808080" }}>
           Open source <i class="fa-solid fa-heart" style={{ color: "red" }}></i>
         </a>
         <button
           style={{
-            padding: "0vh 1.3vh 0vh 1.3vh",
-            border: "1px solid #dee2e6",
+            padding: " 1px 1.3vh 0.5vh 1.3vh",
+            border: "1px solid lightgray",
             borderRadius: "3px",
             marginBottom: "10px",
-            backgroundColor: "#f6f9fc"
+            backgroundColor: "#f6f9fc",
+            fontSize:"small",
+            fontWeight: "500"
           }}
         >
           <i class="fa-regular fa-star"></i> Star
         </button>
         <button
           style={{
-            marginLeft: "2.5vh",
-            marginBottom: "5px",
+            // marginLeft: "0",
+            // marginBottom: "5px",
+            marginRight: "1vh",
             border: "none",
             borderRadius: "10px",
             background: "#00ACC1",
@@ -191,6 +197,7 @@ function Code() {
                 12.5% <i class="fa-solid fa-arrow-up"></i>
               </p>
             </div>
+            {/* <div><Chart/></div> */}
           </div>
           <div
             className="latest"
