@@ -91,9 +91,9 @@ function Code() {
         <div
           className="search"
           style={{
-            marginLeft: "17vh",
+            marginLeft: "6vh",
             marginBottom: "1vh",
-            border: "1px solid #dee2e6 ",
+            border: "1px solid lightgray ",
             borderRadius: "10px",
             display: "flex",
             backgroundColor: "#f6f9fc",
@@ -130,6 +130,7 @@ function Code() {
             border: "1px solid #dee2e6",
             borderRadius: "3px",
             marginBottom: "10px",
+            backgroundColor: "#f6f9fc"
           }}
         >
           <i class="fa-regular fa-star"></i> Star
