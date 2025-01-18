@@ -9,11 +9,11 @@ const Chart = () => {
       const config = {
         type: "line", // Change to "bar" or other chart types as needed
         data: {
-          labels: ["January", "February", "March", "April", "May"],
+          labels: ["1 feb", "2 feb", "3 feb", "4 feb", "5 feb", "6 feb", "7 feb"],
           datasets: [
             {
               label: "Sales",
-              data: [10, 25, 15, 20, 80],
+              data: [6356, 6218, 6156, 6526, 6356, 6256, 6056],
               borderColor: "rgba(75,192,192,1)",
               backgroundColor: "rgba(75,192,192,0.2)",
               fill: true,
@@ -32,7 +32,7 @@ const Chart = () => {
       try {
         const response = await axios.post(
           "https://quickchart.io/chart/create",
-          { chart: config, width: 600, height: 300, format: "png" }
+          { chart: config, width: 600, height: 400, format: "png" }
         );
         setChartUrl(response.data.url); // QuickChart provides a URL to render the chart
       } catch (error) {

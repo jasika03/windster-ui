@@ -100,7 +100,7 @@ function List() {
         </ul>
       </div>
       <div className="w-1/2 bg-white rounded-xl p-3 shadow-md">
-        <h3 className="text-xl font-bold mb-4">Acquisition Overview</h3>
+        <h3 className="text-xl font-bold mb-8">Acquisition Overview</h3>
         <table className="items-center w-full">
           <thead className="bg-slate-50">
             <tr>

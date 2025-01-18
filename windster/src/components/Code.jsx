@@ -1,5 +1,5 @@
 import React from "react";
-// import Chart from "./chart";
+import Chart from "./chart";
 
 function Code() {
   return (
@@ -197,7 +197,7 @@ function Code() {
                 12.5% <i class="fa-solid fa-arrow-up"></i>
               </p>
             </div>
-            {/* <div><Chart/></div> */}
+            <div><Chart/></div>
           </div>
           <div
             className="latest"
@@ -234,8 +234,8 @@ function Code() {
               <table
                 style={{
                   marginTop: "5vh",
-                  borderCollapse: "collapse",
-                  borderSpacing: "0",
+                  // borderCollapse: "collapse",
+                  // borderSpacing: "0",
                   width: "100%",
                   border: "1px solid #ddd",
                 }}
@@ -245,6 +245,7 @@ function Code() {
                     style={{
                       padding: "15px 190px 15px 10px",
                       fontWeight: "small",
+                      backgroundColor:"#f6f9fc",
                       color: "gray",
                     }}
                   >
@@ -255,6 +256,7 @@ function Code() {
                       padding: "15px 10px",
                       fontWeight: "small",
                       whiteSpace: "nowrap",
+                      backgroundColor:"#f6f9fc",
                       color: "gray",
                     }}
                   >
@@ -264,6 +266,7 @@ function Code() {
                     style={{
                       padding: "15px 10px",
                       fontWeight: "small",
+                      backgroundColor:"#f6f9fc",
                       color: "gray",
                     }}
                   >
@@ -278,11 +281,11 @@ function Code() {
                   <td style={{ padding: "15px 10px" }}>$2300</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "15px 10px" }}>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>
                     Payment refund to #00910
                   </td>
-                  <td style={{ padding: "15px 10px" }}>Apr 23 ,2021</td>
-                  <td style={{ padding: "15px 10px" }}>-$670</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>Apr 23 ,2021</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>-$670</td>
                 </tr>
                 <tr>
                   <td style={{ padding: "15px 10px" }}>
@@ -292,11 +295,11 @@ function Code() {
                   <td style={{ padding: "15px 10px" }}>$234</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "15px 10px" }}>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>
                     Payment from Lana Byrd
                   </td>
-                  <td style={{ padding: "15px 10px" }}>Apr 15 ,2021</td>
-                  <td style={{ padding: "15px 10px" }}>$5000</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>Apr 15 ,2021</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>$5000</td>
                 </tr>
                 <tr>
                   <td style={{ padding: "15px 10px" }}>
@@ -306,11 +309,11 @@ function Code() {
                   <td style={{ padding: "15px 10px" }}>$2300</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: "15px 10px" }}>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>
                     Payment from THEMESBERG LLC
                   </td>
-                  <td style={{ padding: "15px 10px" }}>Apr 11 ,2021</td>
-                  <td style={{ padding: "15px 10px" }}>$560</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>Apr 11 ,2021</td>
+                  <td style={{backgroundColor:"#f6f9fc", padding: "15px 10px" }}>$560</td>
                 </tr>
                 <tr>
                   <td style={{ padding: "15px 10px" }}>
